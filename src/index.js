@@ -10,7 +10,9 @@ import React from 'react';
 import ReactDom from 'react-dom';
 const YOURNAME = 'NOMUOJA OGHENEMARO';
 const CURRENTYEAR = new Date().getFullYear();
-ReactDom.render(<div> 
+ReactDom.render(
+<div> 
   <p> created by {YOURNAME}</p>
   <p>copyright {CURRENTYEAR} </p>
-  </div>,document.getElementById("root"))
+</div>
+  ,document.getElementById("root"));
